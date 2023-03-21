@@ -1,0 +1,440 @@
+
+    .main { 
+        overflow-x: hidden;
+    }
+
+    .main__container1{ 
+        position: absolute;
+
+        right: 0px;
+        top: 100px;
+
+        width: 85%;
+        height: 500px;
+
+        background-color: var(--color3);
+        border-radius: 30px 0px 0px 200px;
+    }
+
+    .main__container1__div1{ 
+        position: absolute;
+        bottom: 40px;
+        right: 0px;
+
+        width: 80%;
+        height: 50%;
+
+        background-image: url(../img/img_note.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    
+        box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+        border-radius: 30px 0px 0px 100px;
+    }
+
+    .main__container1__div2{ 
+        position: relative;
+
+        width:100%;
+        height: 75px;
+
+        right: 0px;
+        top: 40px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+
+        color: var(--color2); 
+        font-family: var(--font-principal);
+    }
+        .main__container1__div2 h2{ 
+            font-size: 3rem;
+            
+        }
+
+
+    .main__container2{ 
+      display: none;
+
+    }
+
+    .main .menu1{ 
+        display: none;
+    }
+
+    .main__container3{ 
+        position: absolute;
+        
+        top: 800px;
+
+        width: 100%;
+
+        font-family: var(--font-secundaria);
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+        .main__container3__div1{ 
+            display: none;
+        }
+            .main__container3__div1__nav{ 
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+
+                width: 500px;
+
+                
+               
+                
+            }
+
+        .main__container3__div2{
+            display: none;
+        }
+
+            .main__container3__div2-2{
+                position: relative;
+
+                height: 60px;
+                
+                top: 170px;
+                right: -35%;
+
+                background: rgba(168, 166, 248, 0.5);
+                border-radius: 10px;
+        
+                display: flex;
+                align-items: center;
+        
+                font-weight:600;
+            }  
+
+        .main__container3__div3{
+            position: relative;
+
+            width: 300px;
+            height: 60px;
+
+            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            background: var(--color5);
+            border: 1px solid #A8A6F8;
+            border-radius: 10px;
+    
+            color: var(--color2);
+            text-transform: uppercase;
+    
+            font-weight: 600;
+        }
+
+    .main__container4{ 
+        position: absolute;
+
+        top: 1100px;
+    
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+        width: 100%;
+        height: 400px;
+
+        background: var(--color2-trasparente);
+        color: var(--color2);
+        
+        font-family: var(--font-principal);
+    }
+        .main__container4__card{ 
+            display: flex;
+            align-items: start;
+            justify-content: start;
+            flex-direction: column;
+
+            
+            padding: 20px 7px 0px 25px;
+
+            width:270px;
+            height: 90%;
+
+            border-radius: 30px;
+
+            background-color: var(--color1-trasparente);
+            
+        }
+            .main__container4__card__h3{ 
+                padding-bottom: 40px;
+
+                font-weight: 600;
+            }
+
+            .main__container4__card__p{ 
+                padding-bottom: 20px;
+
+                font-weight: 400;
+            }
+
+
+/* ------------------------------900px */
+
+@media screen and (max-width: 900px){
+    .main { 
+        overflow-x: hidden;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        padding: 0px;
+    }
+
+    .main__container1{ 
+        display: flex;
+        justify-content: center;
+
+        top: 120px;
+    }
+
+    .main__container1__div1{ 
+
+    }
+
+    .main__container1__div2{ 
+        display: flex;
+
+        height: 150px;
+
+        width: 90%;
+
+    }
+        .main__container1__div2 h2{ 
+            font-size: 2.2rem;
+        }
+
+
+    .main__container2{ 
+
+    }       
+
+    .main__container3{ 
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+
+        width: 100%;
+    }
+
+        .main .menu1{ 
+            display: flex;
+
+            position: absolute;
+            top: 400px;
+
+            width: 100%;
+        }
+            .main .menu1__nav{ 
+                width: 100%;
+                justify-content: space-evenly;                        
+                
+                gap: 10px;
+            }
+
+        .main__container3__div1{ 
+   
+        }
+            .main__container3__div1__nav{ 
+
+            }
+
+        .main__container3__div2{
+            
+        }
+
+            .main__container3__div2-2{
+   
+            }  
+
+        .main__container3__div3{
+
+        }
+
+    .main__container4{ 
+        gap: 10px;
+        flex-wrap: wrap;
+
+        height: auto;
+    }
+        .main__container4__card{ 
+            max-width: 400px;
+            height: 400px;
+
+            margin: 20px 20px;
+        }
+            .main__container4__card__h3{ 
+        
+            }
+
+            .main__container4__card__p{ 
+                padding-bottom: 20px;
+
+                font-weight: 400;
+            }
+}
+
+
+/* --------------------------450px */
+@media screen and (max-width: 450px){
+    .main { 
+     
+        
+    }
+
+    .main__container1{ 
+        position: absolute;
+
+
+        width: 90%;
+        height: 320px;
+
+        background-color: var(--color3);
+        border-radius: 20px 0px 0px 100px;
+
+        
+    }
+
+    .main__container1__div1{
+        bottom: 10px;
+        width: 90%;
+    }
+
+    .main__container1__div2{ 
+        top: 10px;
+    }
+        .main__container1__div2 h2{ 
+            font-size: 1.1rem;
+            
+        }
+
+        .main__container1__div2 p{ 
+            font-size: 0.7rem;
+            
+        }
+
+
+    .main__container2{ 
+        position: relative;
+
+        width: 100%;
+
+        display: none;
+
+        background-image:  url(../img/img_codigos.jpg);
+        opacity: 0.1;
+    
+        background-size: contain;
+        background-repeat: no-repeat;
+    
+        transform: rotate(-15deg);
+    
+        font-size: var(--font-principal);
+
+    }
+
+    
+    .main__container3{ 
+        position: absolute;
+        
+        top: 500px;
+        height: auto;
+
+        width: 100%;
+
+        font-family: var(--font-secundaria);
+    }
+
+        .main .menu1{ 
+            display: flex;
+
+            width: 100%;
+
+            position: relative;
+        }
+            .main .menu1__nav{ 
+                display: flex;
+                justify-content: space-evenly;
+
+                width: 100%;
+
+                gap: 5px;
+
+                padding-top: 5px;
+
+            }
+
+                .main .menu1__nav__div{ 
+                    width: 30%; 
+                }
+
+                .main .menu1__nav .menu1__nav__a { 
+                    display: flex;
+                }
+
+        .main__container3__div1{ 
+            display: none;
+        }
+            .main__container3__div1__nav{ 
+                
+            }
+
+        .main__container3__div2{
+           
+        }
+
+       
+
+        .main__container3__div3{
+            width: 300px;
+            height: 60px;
+
+            top: 200px;
+        }
+
+    .main__container4{ 
+        top: 1100px;
+    
+        display: flex;
+        flex-wrap: wrap;
+
+        width: 100%;
+        height: auto;
+
+        gap: 10px;
+
+        padding: 30px 0;
+        
+    }
+        .main__container4__card{ 
+            max-width: 350px;
+            width: 100%;
+            height: 400px;  
+
+        }
+            .main__container4__card__h3{ 
+
+            }
+
+            .main__container4__card__p{ 
+            }
+
+
+}

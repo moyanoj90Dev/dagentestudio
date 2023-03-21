@@ -1,0 +1,24 @@
+
+
+.menu1__nav__a:hover {
+    font-weight: 600;
+
+    --display-on: flex;
+}
+
+.menu1__iframe1{ 
+    display: var(--display-on);
+}
+
+.header__container4__button:hover{ 
+    transition: 500ms;
+    transform: scale(1.2);
+}
+
+.main__container3__div3:hover {  /* boton - portafolio */
+    transition: 500ms;
+    transform: scale(1.05);
+
+    font-size: 1.05rem;
+}
+

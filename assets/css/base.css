@@ -1,0 +1,30 @@
+:root{ 
+    --color1: #0F2C3F; /* bg principal */
+    --color1-trasparente: #0f2c3f91;
+
+    --color2: #A8A6DF; 
+    --color2-trasparente: #a8a6df1f;
+    --color2-trasparente2: #a8a6df4d;
+    --color2-trasparente3: #a8a6dff8; /* usado nos iframe */
+
+    --color3: rgba(15, 24, 37, 1); /* con trasparencia */
+    --color4: #0F1825; 
+    --color5: rgba(30, 30, 30, 0.8);
+
+    --color6: #6863ee; /* Hover - nav principal */
+
+    --letras-claras: #A8A6DF;
+    --letras-firma: #B8001A;
+
+    --font-principal:'Carrois Gothic SC', sans-serif;
+    --font-secundaria: 'Roboto', sans-serif;
+    --font-firma: 'Caveat', cursive;
+}
+
+
+body{ 
+    background: var(--color1);
+
+    width: 100%;
+    overflow-x:  hidden;
+}

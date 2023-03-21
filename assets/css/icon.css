@@ -1,0 +1,39 @@
+.menu2__nav__a__img{ 
+    width: 20px;
+    height: 20px;
+}
+
+.menu2__nav__a__img:hover{ 
+    transition: 200ms;
+    transform: scale(1.2);
+}
+
+
+
+
+
+.main__container3__div1__nav__img{ 
+    width: 30px;
+    height: fit-content;
+}
+
+.main__container3__div1__nav__img:hover{ 
+    transition: 800ms;
+    transform: scale(1.2);
+}
+
+.main__container3__div2-2-banderas{ 
+    width: 20px;
+}
+
+.main__container1__nav__a__img{ 
+    width: 40px
+}
+
+@media screen and (max-width: 900px){
+    .menu2__nav__a__img{ 
+        width: 15px;
+        height: 15px;
+    }
+   
+}

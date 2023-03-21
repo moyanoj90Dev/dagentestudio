@@ -1,0 +1,26 @@
+
+@media screen and (max-width: 450px){
+
+    .menu1__nav{ 
+        flex-wrap: wrap;
+        justify-content: start;     
+    }
+
+    .menu1__nav__div{
+        width: 30%;
+
+        height: 30px;
+        font-size: 0.7rem;
+
+        border: solid 0.1px; 
+        border-radius: 5px;
+
+        justify-content: center;
+        align-items: center;
+    }
+
+        menu1__nav__a{
+
+        }
+
+}
